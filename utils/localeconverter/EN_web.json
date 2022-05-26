@@ -1,0 +1,23 @@
+{
+	"id": "en", 
+	"keys": {
+		"clipper_water_placement": "This item must be placed over water!",
+		"clipper_more_resources": "More resources required to upgrade!",
+		"clipper_replay": "Play previous levels to gather the missing resources!",
+		
+		"panel_achs_title": "Achievements",
+		"panel_achs_achsTab":"Achievements",
+		"panel_achs_completedTab":"Completed",
+		"panel_achs_eventsTab":"Events",
+		"button_achs": "Awards",
+		
+	
+		"text_hour": "%0 Hours",
+		"text_hours": "%0 Hours",
+		"text_minutes": "%0 Minutes",
+		"st_collect":"Match to collect!",
+		"mb_upgrade_at":"Upgrade at User Level %0",
+		"button_skipStory":"Skip",
+		"buy_for_free":"FREE"
+	}
+}

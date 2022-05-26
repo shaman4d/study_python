@@ -1,0 +1,41 @@
+{
+	"id": "ru", 
+	"keys": {
+	
+		"clipper_water_placement": "Этот предмет должен быть размещен над водой!",
+		"clipper_more_resources": "Для улучшения требуется больше ресурсов!",
+		"clipper_replay": "Играйте предыдущие уровни, чтобы собрать недостающие ресурсы!",
+
+		"price": "Цена",
+		"in": "  в",
+
+		"panel_achs_title": "Достижения",
+		"panel_achs_achsTab":"Достижения",
+		"panel_achs_completedTab":"Полученные",
+		"panel_achs_eventsTab":"События",
+		"button_achs": "Награды",
+
+
+		"text_hour": "%0 ч.",
+		"text_hours": "%0 ч.",
+		"text_minutes": "%0 мин.",
+		"st_collect":"Составьте комбинацию, чтобы собрать!",
+		"mb_upgrade_at":"Улучшение доступно на ур. %0.",
+		"button_skipStory":"Пропустить",
+		"buy_for_free":"БЕСПЛАТНО"
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

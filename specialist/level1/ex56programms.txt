@@ -1,0 +1,4 @@
+notepad.exe R X
+access.log W R
+logo.gif R
+httpd.conf X W R

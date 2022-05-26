@@ -1,0 +1,5 @@
+Smith 10
+Smith 5
+Dow 9
+Dow 8
+Smith 1

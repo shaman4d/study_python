@@ -1,0 +1,5 @@
+read logo.gif
+write notepad.exe
+execute logo.gif
+read access.log
+write access.log

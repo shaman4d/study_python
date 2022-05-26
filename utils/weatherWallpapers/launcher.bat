@@ -1,0 +1,1 @@
+start /MIN python.exe wallpaperChanger.py 

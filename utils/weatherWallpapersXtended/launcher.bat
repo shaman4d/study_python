@@ -1,0 +1,1 @@
+start /MIN python.exe wwx.py simferopol rome%20street 3000

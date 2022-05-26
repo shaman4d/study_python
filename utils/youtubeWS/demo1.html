@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <body bgcolor='#000000'>
+	<div id="ytplayer1"></div>
+	<div id="ytplayer2"></div>
+
+	<script>
+	  var tag = document.createElement('script');
+	  tag.src = "https://www.youtube.com/iframe_api";
+	  var firstScriptTag = document.getElementsByTagName('script')[0];
+	  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+	  
+	  var player;
+	  var player2;
+	  function onYouTubePlayerAPIReady() 
+	  {
+		new YT.Player('ytplayer1', {height:'390', width: '640' ,videoId:'qZxFQQ1M7mE?autoplay=1&loop=1', playerVars: { 'autoplay': 1, 'controls': 0 }, events:{'onStateChange': 'onPlayerStateChange'}});
+		new YT.Player('ytplayer2', {height:'390', width: '640' ,videoId:'EM_Dbik1ncA', playerVars: { 'autoplay': 1, 'controls': 0 }, events:{'onReady':onPlayerReady, 'onStateChange': 'onPlayerStateChange'}});
+	  }
+	  
+      function onPlayerReady(event) 
+	  {
+		//alert('!!!');
+		setTimeout(event.target.playVideo, 500);
+        //event.target.playVideo();
+      }
+
+      function onPlayerStateChange(event) 
+	  {
+        if (event.data == YT.PlayerState.ENDED) 
+		{
+          event.target.playVideo();
+        }
+      }
+	  
+	</script>
+  </body>
+</html>
